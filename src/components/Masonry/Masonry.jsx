@@ -1,24 +1,13 @@
 import Card from "../Card/Card";
 
 import ramen from '../../assets/ramen.png';
-import location from '../../assets/Location.png';
 
 
 
   const Masonry = () => {
     const cards = [
-      { title: "Robiul", description: "Description 1", image: ramen },
-      { title: "Card 2", description: "Description 2", image: location },
-      { title: "Card 3", description: "Description 3", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" },
-      { title: "Card 4", description: "Description 4", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" },
-      { title: "Card 5", description: "Description 5", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" },
-      { title: "Card 6", description: "Description 6", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" },
-      { title: "Card 7", description: "Description 7", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" },
-      { title: "Card 8", description: "Description 8", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" },
-      { title: "Card 9", description: "Description 9", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" },
-      { title: "Card 10", description: "Description 10", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" },
-      { title: "Card 11", description: "Description 11", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" },
-      { title: "Card 12", description: "Description 12", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" }
+      { title: "Robiul", description: "Description 1", image: ramen }
+      
     ];
   
     const chunkedCards = [
