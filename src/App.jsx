@@ -1,13 +1,11 @@
+import Home from './components/Home/Home'
 import './App.css'
 
 function App() {
- 
 
   return (
     <>
-      
-      <h1>ANKH System</h1>
-      
+      <Home />
     </>
   )
 }
