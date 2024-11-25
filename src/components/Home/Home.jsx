@@ -1,13 +1,13 @@
 import Masonry from "../Masonry/Masonry";
-import Banner from "../Banner/Banner";
-import Card1 from "../Card1/Card1";
-import Card2 from "../Card2/Card2";
 import Footer from "../Footer/Footer";
+import Banner from "../Banner/Banner";
+
 
 const Home = () => {
     return (
         <div >
-            <Banner/>
+            <Banner></Banner>
+           
             <Masonry/>
             <Footer></Footer>
 
