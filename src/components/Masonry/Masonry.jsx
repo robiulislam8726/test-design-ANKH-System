@@ -6,8 +6,8 @@ import ramen from '../../assets/ramen.png';
 
   const Masonry = () => {
     const cards = [
-      { title: "Robiul", description: "Description 1", image: ramen },
-      { title: "sanju", description: "Description 1" },
+      { title: "1", description: "Description 1", image: ramen },
+      { title: "2", description: "Description 1",image: ramen  },
       { title: "3", description: "Description 1", image: ramen },
       { title: "4", description: "Description 1", image: ramen },
       { title: "5", description: "Description 1", image: ramen },
@@ -15,7 +15,8 @@ import ramen from '../../assets/ramen.png';
       { title: "7", description: "Description 1", image: ramen },
       { title: "8", description: "Description 1", image: ramen },
       { title: "9", description: "Description 1", image: ramen },
-      { title: "10", description: "Description 1", image: ramen }
+      { title: "10", description: "Description 1", image: ramen },
+      { title: "11", description: "Description 1", image: ramen }
       
     ];
   
