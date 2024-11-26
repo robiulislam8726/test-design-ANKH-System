@@ -8,15 +8,16 @@ import Card6 from "../Card/Card6";
 
 
 
+
 const Masonry = () => {
 
 
   const cards = [
-    { Component: Card1, props: { title: "Card 1", description: "Description 1", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" } },
+    { Component: Card1, props: { title: "新東京オフィスの地図はこちら", description: "〒105-0001 港区虎ノ門2-7-16 エグゼクティブタワー虎ノ門 504", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" } },
     { Component: Card2, props: { title: "Card 2", description: "Description 2", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" } },
     { Component: Card3, props: { title: "Card 3", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime illum voluptate natus accusantium ipsum error alias, commodi nulla labore sequi, amet aliquam sed similique so" } },
-    { Component: Card4, props: { title: "Card 4", description: "Description 4", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" } },
-    { Component: Card5, props: { title: "Card 5", description: "Description 5" } },
+    { Component: Card4, props: { title: "電話・FAX番号が変わりました", description: "Description 4", image: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" } },
+    { Component: Card5, props: { title: "虎ノ門の由来って？", description: "Description 5"  } },
     { Component: Card6, props: { title: "Card 6", description: "Description 6", highlight: true } },
 
   ];

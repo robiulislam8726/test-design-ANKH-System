@@ -1,12 +1,13 @@
 import PropTypes from "prop-types";
 import { FaMobileAlt } from "react-icons/fa";
+import telephone from '../../assets/tel-fax.png';
 
 
 const Card4 = ({ title, description }) =>  (
-    <div className="bg-red-50 shadow-lg p-4 rounded-lg overflow-hidden">
+    <div className="bg-[#846AB4] p-4 w-[490px] h-[220px] overflow-hidden">
       <div className="p-4">
-      <h2 className="w-[300px] font-bold text-lg"> <FaMobileAlt /> {title}</h2>
-        <p className="text-gray-700">{description}</p>
+      <h2 className="flex mx-1 w-[300px]font-bold text-lg text-white"> <FaMobileAlt /> {title}</h2>
+      <img className="mt-4 w-full h-auto" src={telephone} alt={title} /> 
       </div>
     </div>
   );
