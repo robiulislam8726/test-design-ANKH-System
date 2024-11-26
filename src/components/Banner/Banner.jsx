@@ -1,6 +1,7 @@
 
 import banner from '../../assets/banner.png';
 import toranamon from '../../assets/TORANOMON.png';
+import Board from '../Board/Board';
 
 
 
@@ -17,6 +18,7 @@ const Banner = () => {
         </div>
         
       </div>
+     
       
     );
   };

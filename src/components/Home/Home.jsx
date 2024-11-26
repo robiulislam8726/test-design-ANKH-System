@@ -3,7 +3,7 @@ import Footer from '../Footer/Footer'
 import Banner from '../Banner/Banner'
 import Navbar from '../Navbar/Navbar'
 import Board from '../Board/Board'
-import CompanyLogo from '../CompanyLogo/CompanyLogo'
+
 
 const Home = () => {
   return (
@@ -12,6 +12,7 @@ const Home = () => {
       <div className='mx-auto max-w-[1000px]'>
         <Banner></Banner>
         <Board></Board>
+        
         <Masonry />
       </div>
       
