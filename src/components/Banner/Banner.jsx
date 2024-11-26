@@ -3,6 +3,7 @@ import banner from '../../assets/banner.png';
 import toranamon from '../../assets/TORANOMON.png';
 
 
+
 const Banner = () => {
     return (
       <div className="relative w-full">
@@ -14,7 +15,9 @@ const Banner = () => {
           <img src={toranamon} alt="" />
           <h4 className="mt-2 text-white">あいうえお かきくけこ さしすせそ たちつてと なにぬねの はひふへほ まみむめも やゆよ らりるれろ わをん</h4>
         </div>
+        
       </div>
+      
     );
   };
   
