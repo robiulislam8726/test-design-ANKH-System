@@ -1,16 +1,19 @@
 import logo from '../../assets/logo.png';
+import arrow from '../../assets/arrow.png';
 
 const CompanyLogo = () => {
   return (
-    <div className="flex justify-center items-center mt-2 max-w-[1000px] h-[100px]">
+    <div className="flex md:flex-row justify-center items-center mt-2 w-full h-[100px]">
 
-      <div>
-      <img className='justify-center items-center w-[328px]' src={logo} alt="" />
-      </div>
+
+      <img className='justify-center items-center mr-6 w-[328px]' src={logo} alt="" />
+
 
       <div>
         <p className='justify-center items-center w-[376px]'> 株式会社アンクシステムズ コーポレートサイトへ </p>
+
       </div>
+      <img className='justify-end ml-6' src={arrow} alt="" />
 
 
     </div>
