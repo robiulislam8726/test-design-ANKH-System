@@ -1,20 +1,13 @@
-import PropTypes from "prop-types";
-
-const Card2 = ({ title, description, image }) =>  (
-    <div className="bg-white shadow-lg file:overflow-hidden">
-      <img className="w-full h-[250px]" src={image} alt={title} />
-      <div className="p-4">
-        <h2 className="mb-2 font-bold text-lg">{title}</h2>
-        <p className="text-gray-700">{description}</p>
+const Board = () => {
+  return (
+      <div className="flex md:flex-row flex-col mx-auto mt-2 max-w-[1000px] h-auto md:h-[260px]">
+          {/* Left Section*/}
+          <div className="bg-[#DC5E48] p-4 md:pt-9 md:pr-14 md:pb-9 md:pl-14 w-full md:w-[450px]">
+              <img src="" alt="" />
+              <h6>始発まで営業している居酒屋</h6>
+          </div>
       </div>
-    </div>
   );
-
-
-Card2.propTypes = {
-  title: PropTypes.string.isRequired,      
-  description: PropTypes.string.isRequired, 
-  image: PropTypes.string.isRequired,        
 };
 
-export default Card2;
+export default Board;
