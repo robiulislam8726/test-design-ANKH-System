@@ -6,9 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-        fontFamily: 
-          "sans-serif"
-    
+      themes :["light", "dard", "cupcake"],
+        fontFamily: {
+          hirakakupro: [ 'HirakakuPro', 'sans-serif'],
+        },
     },
   },
   plugins: [

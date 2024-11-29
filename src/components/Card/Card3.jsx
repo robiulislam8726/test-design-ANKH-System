@@ -14,17 +14,21 @@ const Card3 = ({ title }) => (
           {title}
         </div>
       </h2>
-      <div className="flex grid-cols-2 row-span-2">
-        <img className="p-4 w-full h-[250px]" src={photo1} alt={title} />
-        <img className="p-4 w-full h-[250px]" src={photo2} alt={title} />
-        <img className="p-4 w-full h-[250px]" src={photo3} alt={title} />
-        <img className="p-4 w-full h-[250px]" src={photo4} alt={title} />
+      <div className="flex grid-cols-2 grid-rows-3 m-2 p-4">
+        <div>
+          <img className="row-span-3" src={photo1} alt={title} />
+        </div>
+        <div className="grid-cols-1">
+          <img className="row-span-1" src={photo2} alt={title} />
+          <img className="row-span-1" src={photo3} alt={title} />
+          <img className="row-span-1" src={photo4} alt={title} />
+        </div>
       </div>
     </div>
   </div>
 );
 
-
+//p-4 w-full h-[250px]
 Card3.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

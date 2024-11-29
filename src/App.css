@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: 'HiraKakuPro';
+  src: url('./assets/fonts/HiraKakuPro-W3.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 #root {
   margin: 0 auto;
   text-align: center;
