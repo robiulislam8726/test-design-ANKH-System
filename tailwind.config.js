@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-      themes :["light", "dard", "cupcake"],
+      themes :["light", "cupcake"],
         fontFamily: {
-          hirakakupro: [ 'HirakakuPro', 'sans-serif'],
+          hirakakupro: [ 'HiraKakuPro', 'sans-serif'],
         },
     },
   },

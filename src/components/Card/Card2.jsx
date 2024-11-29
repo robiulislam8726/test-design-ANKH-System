@@ -1,12 +1,11 @@
 const Board = () => {
   return (
-      <div className="flex md:flex-row flex-col mx-auto mt-2 max-w-[1000px] h-auto md:h-[260px]">
-          {/* Left Section*/}
-          <div className="bg-[#DC5E48] p-4 md:pt-9 md:pr-14 md:pb-9 md:pl-14 w-full md:w-[450px]">
-              <img src="" alt="" />
-              <h6>始発まで営業している居酒屋</h6>
-          </div>
-      </div>
+    <div className="flex justify-center items-center bg-[#DC5E48] font-hirakakupro">
+    
+        <p className="w-[217px] h-[269px] font-thin text-white">めん徳　二代目つじ田　新橋店 1月24日にオープンしたばかりのラーメン店。 看板メニューのつけ麺は3段階に進化します。 最初はそのまま、途中ですだちを絞って爽やかに、 </p>
+      
+    
+  </div>
   );
 };
 

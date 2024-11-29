@@ -6,9 +6,9 @@ import telephone from '../../assets/tel-fax.png';
 const Card4 = ({ title }) => (
   <div className="bg-[#846AB4] p-4 h-[220px] overflow-hidden">
     <div className="p-6">
-      <h2 className="flex justify-center items-center ml-6 w-[300px] text-white">
+      <h2 className="flex justify-center items-center ml-4 w-[300px] text-white">
         <FaMobileAlt />
-        <div className="font-thin text-xl">
+        <div className="mx-2 font-hirakakupro">
           {title}
         </div>
       </h2>

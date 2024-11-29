@@ -13,8 +13,10 @@ const Board = () => {
 
             {/* Right Section*/}
 
-            <div className="pt-9 pr-10 pb-9 pl-10 w-[550px]">
-                <p className="font-hirakakupro text-center text-sm md:text-center">このたび弊社は、東京オフィスを東京都港区虎ノ門に移転し ２０１４年３月４日(火)大安より営業の運びとなりました。 新オフィスは、打ち合わせスペースも多くありますので お近くにお越しの際はどうぞお気軽にお立ち寄りください。 今後とも弊社をどうぞよろしくお願い申し上げます。 </p>
+            <div className="p-6 md:pt-9 md:pr-10 md:pb-9 md:pl-10 w-full md:w-[550px]">
+                <p className="font-hirakakupro text-center text-sm md:text-lg md:text-start">
+                    このたび弊社は、東京オフィスを東京都港区虎ノ門に移転し ２０１４年３月４日(火)大安より営業の運びとなりました。 新オフィスは、打ち合わせスペースも多くありますので お近くにお越しの際はどうぞお気軽にお立ち寄りください。 今後とも弊社をどうぞよろしくお願い申し上げます。 
+                </p>
 
             </div>
         </div>
