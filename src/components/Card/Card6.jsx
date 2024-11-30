@@ -4,7 +4,7 @@ import pickupfood from '../../assets/Pickupfoods.png';
 
 const Card6 = ({ }) => (
   <div className="flex justify-center items-center bg-[#E9BC06]">
-    <div className=" ">
+    <div className="mt-4">
       <img className="justify-center items-center mr-2 mb-2" src={pickupfood} alt="" />
       <div className="flex">
         <img className="mr-4 h-[204px]" src={ramen} alt="" />
