@@ -1,13 +1,13 @@
 import Home from './components/Home/Home'
 import './App.css'
 
-function App() {
 
   return (
-    <>
-      <Home />
-    </>
+    <main >
+     <Home></Home>
+      
+    </main>
   )
-}
+
 
 export default App

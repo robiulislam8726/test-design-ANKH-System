@@ -4,6 +4,10 @@ import Banner from '../Banner/Banner'
 import Navbar from '../Navbar/Navbar'
 import Board from '../Board/Board'
 import CompanyLogo from '../CompanyLogo/CompanyLogo'
+import Order from '../Order/Order'
+import Restaurant from '../Restaurant/Restaurant'
+
+
 
 
 const Home = () => {
@@ -24,6 +28,8 @@ const Home = () => {
       <div>
         <CompanyLogo></CompanyLogo>
       </div>
+      <Restaurant></Restaurant>
+      <Order />
       <Footer></Footer>
     </div>
   )
